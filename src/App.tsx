@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from './Frame 7.png';
 import {
   CheckCircle2,
   Clock,
@@ -79,7 +80,7 @@ function App() {
       {/* Header with Logo */}
       <div className="bg-[#ED5A01] py-4">
         <div className="max-w-4xl mx-auto px-4">
-          <img src="./Frame 7.png" alt="Cacau Mundo Logo" className="h-12" />
+          <img src={logo} alt="Cacau Mundo Logo" className="h-12" />
         </div>
       </div>
 
