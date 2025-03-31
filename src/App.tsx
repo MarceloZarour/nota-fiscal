@@ -79,7 +79,7 @@ function App() {
       {/* Header with Logo */}
       <div className="bg-[#ED5A01] py-4">
         <div className="max-w-4xl mx-auto px-4">
-          <img src="/src/Frame 7.png" alt="Cacau Mundo Logo" className="h-12" />
+          <img src="./Frame 7.png" alt="Cacau Mundo Logo" className="h-12" />
         </div>
       </div>
 
