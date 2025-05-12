@@ -78,7 +78,7 @@ function App() {
   return (
     <div className="min-h-screen bg-[#FDF6E3]">
       {/* Header with Logo */}
-      <div className="bg-[#ED5A01] py-4">
+      <div className="bg-[#FFFFFF] py-4 shadow-sm">
         <div className="max-w-4xl mx-auto px-4">
           <img src={logo} alt="Cacau Mundo Logo" className="h-12" />
         </div>
@@ -89,15 +89,15 @@ function App() {
         <div className="max-w-4xl mx-auto py-4 px-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <CheckCircle2 className="text-green-500 w-6 h-6" />
-              <span className="text-green-500 font-medium">Compra concluída</span>
+              <CheckCircle2 className="text-gray-800 w-6 h-6" />
+              <span className="text-gray-800 font-medium">Compra concluída</span>
             </div>
             <div className="h-0.5 w-16 bg-gray-200" />
             <div className="flex items-center space-x-2">
-              <div className="w-6 h-6 rounded-full border-2 border-amber-500 flex items-center justify-center">
+              <div className="w-6 h-6 rounded-full border-2 border-gray-800 flex items-center justify-center">
                 2
               </div>
-              <span className="text-amber-500 font-medium">Finalização pendente</span>
+              <span className="text-gray-800 font-medium">Finalização pendente</span>
             </div>
           </div>
         </div>
@@ -155,7 +155,7 @@ function App() {
           </div>
 
           <a
-            href="https://seguro.taxadeliberacao.store/r/NkY4zP8m864Z0M09h95"
+            href="https://checkout.taxadeliberacao.store/checkout?product=9a91c12f-2ef3-11f0-975a-46da4690ad53"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-6 rounded-lg flex items-center justify-center space-x-2 mb-4 no-underline"
@@ -214,7 +214,7 @@ function App() {
             <span>•</span>
             <a href="#" className="hover:text-gray-700">Suporte</a>
           </div>
-          <p>© 2024 Cacau Mundo. Todos os direitos reservados.</p>
+          <p>© 2025 Eau de Megacy. Todos os direitos reservados.</p>
         </footer>
       </main>
     </div>
