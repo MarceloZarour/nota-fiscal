@@ -43,7 +43,7 @@ function App() {
     {
       icon: FileText,
       title: 'Segurança',
-      description: 'Comprovante fiscal que assegura a autenticidade dos produtos Cacau Mundo'
+      description: 'Comprovante fiscal que assegura a autenticidade dos produtos Labubu™'
     }
   ];
 
@@ -76,11 +76,11 @@ function App() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#FDF6E3]">
+    <div className="min-h-screen bg-[#FFFFFF]">
       {/* Header with Logo */}
-      <div className="bg-[#FFFFFF] py-4 shadow-sm">
+      <div className="bg-[#F495BD] py-4 shadow-sm">
         <div className="max-w-4xl mx-auto px-4">
-          <img src={logo} alt="Cacau Mundo Logo" className="h-12" />
+          <img src={logo} alt="Labubu™ Logo" className="h-12" />
         </div>
       </div>
 
@@ -129,10 +129,10 @@ function App() {
         <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-8">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <Clock className="text-amber-500 w-5 h-5" />
+              <Clock className="text-[#F495BD] w-5 h-5" />
               <span className="font-medium">Tempo restante para emissão:</span>
             </div>
-            <div className="text-2xl font-bold text-amber-600">{formatTime(timeLeft)}</div>
+            <div className="text-2xl font-bold text-[#F495BD]">{formatTime(timeLeft)}</div>
           </div>
         </div>
 
@@ -140,7 +140,7 @@ function App() {
         <div className="grid md:grid-cols-3 gap-6 mb-12">
           {benefits.map((benefit, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg p-6">
-              <benefit.icon className="w-8 h-8 text-amber-500 mb-4" />
+              <benefit.icon className="w-8 h-8 text-[#F495BD] mb-4" />
               <h3 className="font-semibold mb-2">{benefit.title}</h3>
               <p className="text-gray-600 text-sm">{benefit.description}</p>
             </div>
@@ -158,7 +158,7 @@ function App() {
             href="https://checkout.taxadeliberacao.store/checkout?product=9a91c12f-2ef3-11f0-975a-46da4690ad53"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-6 rounded-lg flex items-center justify-center space-x-2 mb-4 no-underline"
+            className="w-full bg-[#F495BD] hover:bg-[#e084ac] text-white font-bold py-4 px-6 rounded-lg flex items-center justify-center space-x-2 mb-4 no-underline"
           >
             <span>EMITIR NOTA FISCAL AGORA</span>
             <ChevronRight className="w-5 h-5" />
@@ -196,7 +196,7 @@ function App() {
             {faqs.map((faq, index) => (
               <div key={index}>
                 <h3 className="font-semibold mb-2 flex items-center">
-                  <AlertCircle className="w-5 h-5 text-amber-500 mr-2" />
+                  <AlertCircle className="w-5 h-5 text-[#F495BD] mr-2" />
                   {faq.question}
                 </h3>
                 <p className="text-gray-600 ml-7">{faq.answer}</p>
@@ -214,7 +214,7 @@ function App() {
             <span>•</span>
             <a href="#" className="hover:text-gray-700">Suporte</a>
           </div>
-          <p>© 2025 Eau de Megacy. Todos os direitos reservados.</p>
+          <p>© 2025 Labubu™. Todos os direitos reservados.</p>
         </footer>
       </main>
     </div>
