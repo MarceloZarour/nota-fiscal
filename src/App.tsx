@@ -78,14 +78,14 @@ function App() {
   return (
     <div className="min-h-screen bg-[#FFFFFF]">
       {/* Header with Logo */}
-      <div className="bg-[#F495BD] py-4 shadow-sm">
+      <div className="bg-[#FFFFFF] py-4 shadow-sm"> {/* Alterado para branco */}
         <div className="max-w-4xl mx-auto px-4">
           <img src={logo} alt="Labubu™ Logo" className="h-12" />
         </div>
       </div>
 
       {/* Progress Bar */}
-      <div className="bg-white shadow-sm">
+      <div className="bg-[#F495BD] shadow-sm"> {/* Alterado para rosa */}
         <div className="max-w-4xl mx-auto py-4 px-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
