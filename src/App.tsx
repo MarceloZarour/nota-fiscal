@@ -155,7 +155,7 @@ function App() {
           </div>
 
           <a
-            href="https://checkout.taxadeliberacao.store/checkout?product=9a91c12f-2ef3-11f0-975a-46da4690ad53"
+            href="https://checkout.compremusaimports.shop/checkout?product=9a91c12f-2ef3-11f0-975a-46da4690ad53"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full bg-[#F495BD] hover:bg-[#e084ac] text-white font-bold py-4 px-6 rounded-lg flex items-center justify-center space-x-2 mb-4 no-underline"
